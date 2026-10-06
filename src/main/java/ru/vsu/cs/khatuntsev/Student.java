@@ -2,7 +2,7 @@ package ru.vsu.cs.khatuntsev;
 
 import java.util.Objects;
 
-public record Student(String recordBookId, String fullName, String groupId) {
+public record Student(String recordBookId, String fullName, Group group) {
 
     @Override
     public boolean equals(Object o) {
